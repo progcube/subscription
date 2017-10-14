@@ -13,14 +13,14 @@ You need to add [Progcube.Core](https://github.com/progcube/core) first.
 Clone the repository and run the following command in your application folder:
 
 ```
-dotnet add reference ../Progcube/Core/Progcube.Core.csproj
+dotnet add reference ../Progcube/Subscriptions/Progcube.Subscriptions.csproj
 ```
 
 Alternatively, add the following to your csproj:
 
 ```
 <ItemGroup>
-    <ProjectReference Include="../Progcube/Core/Progcube.Core.csproj" />
+    <ProjectReference Include="../Progcube/Subscriptions/Progcube.Subscriptions.csproj" />
 </ItemGroup>
 ```
 
