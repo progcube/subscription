@@ -39,6 +39,11 @@ namespace Progcube.Subscriptions.Models.Entities
         public DiscountStatus Status { get; set; }
 
         /// <summary>
+        /// The type of the Discount.
+        /// </summary>
+        public DiscountType Type { get; set; }
+
+        /// <summary>
         /// Whether the Discount is applicable towards any Plan. This requires EligiblePlans to be empty.
         /// </summary>
         public bool AppliesToAllPlans { get; set; }
